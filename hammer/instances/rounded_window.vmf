@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9174"
-	"mapversion" "2"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,316 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "204"
+		side
+		{
+			"id" "200"
+			"plane" "(10 -24 40) (10 -21 48) (10 -18 46)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 0.970142 -0.242536 77.612] 0.25"
+			"vaxis" "[0 0.242536 0.970142 111.454] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(-10 -21 48) (-10 -24 40) (-10 -20 40)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 -0.970142 0.242536 -93.1336] 0.25"
+			"vaxis" "[0 0.242536 0.970142 111.457] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "198"
+			"plane" "(10 -21 48) (-10 -21 48) (-10 -18 46)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 -0.768227 0.640177 107.605] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(-10 -24 40) (10 -24 40) (10 -20 40)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 -240.051] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(-10 -21 48) (10 -21 48) (10 -24 40)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.249687 0.968327 109.192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(10 -18 46) (-10 -18 46) (-10 -20 40)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.287348 0.957825 111.456] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "100 185 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "205"
+		side
+		{
+			"id" "206"
+			"plane" "(10 -18 54) (10 -15 52) (10 -18 46)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 0.894438 -0.447192 -408.249] 0.25"
+			"vaxis" "[0 0.447192 0.894438 -380.645] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(-10 -21 48) (-10 -18 46) (-10 -15 52)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 -0.894438 0.447192 392.15] 0.25"
+			"vaxis" "[0 0.447192 0.894438 -380.643] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "204"
+			"plane" "(-10 -18 54) (-10 -15 52) (10 -15 52)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 -0.768221 0.640184 119.775] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-10 -18 46) (-10 -21 48) (10 -21 48)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.992993 -0.118172 -207.576] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-10 -21 48) (-10 -18 54) (10 -18 54)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.514225 0.857655 -380.711] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(10 -18 46) (10 -15 52) (-10 -15 52)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.514473 0.857506 -380.644] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "100 185 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "206"
+		side
+		{
+			"id" "212"
+			"plane" "(10 -18 54) (10 -9 59) (10 -8 56)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 0.599988 -0.800009 -362.398] 0.25"
+			"vaxis" "[0 0.800009 0.599988 -320.84] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(-10 -9 59) (-10 -18 54) (-10 -15 52)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 -0.599988 0.800009 345.599] 0.25"
+			"vaxis" "[0 0.800009 0.599988 -320.838] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "210"
+			"plane" "(10 -9 59) (-10 -9 59) (-10 -8 56)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 -0.287379 0.957817 106.705] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(-10 -18 54) (10 -18 54) (10 -15 52)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.768234 -0.640168 -115.079] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "208"
+			"plane" "(-10 -9 59) (10 -9 59) (10 -18 54)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.819062 0.573704 -328.567] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "207"
+			"plane" "(-10 -15 52) (10 -15 52) (10 -8 56)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.848005 0.529987 -320.839] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "100 185 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "207"
+		side
+		{
+			"id" "218"
+			"plane" "(10 0 60) (10 0 57) (10 -8 56)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 0.196121 -0.98058 -339.418] 0.25"
+			"vaxis" "[0 0.98058 0.196121 -247.771] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "217"
+			"plane" "(-10 -9 59) (-10 -8 56) (-10 0 57)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[0 -0.196121 0.98058 322.944] 0.25"
+			"vaxis" "[0 0.98058 0.196121 -247.769] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "216"
+			"plane" "(-10 0 60) (-10 0 57) (10 0 57)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0 1 122.747] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "215"
+			"plane" "(10 -9 59) (10 -8 56) (-10 -8 56)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.287348 -0.957825 -61.8801] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "214"
+			"plane" "(10 0 60) (10 -9 59) (-10 -9 59)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.981547 0.191217 -253.062] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "213"
+			"plane" "(10 -8 56) (10 0 57) (-10 0 57)"
+			"material" "WOOD/WOODSHELF002A"
+			"uaxis" "[-1 0 0 -32] 0.25"
+			"vaxis" "[0 0.986393 0.164403 -247.77] 0.25"
+			"rotation" "0"
+			"lightmapscale" "8"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "100 185 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "3"
@@ -47,7 +351,7 @@ entity
 		side
 		{
 			"id" "104"
-			"plane" "(-4 -16 48) (-4 16 48) (-2 16 48)"
+			"plane" "(-4 -24 60) (-4 24 60) (-2 24 60)"
 			"material" "DEV/DEV_BLENDMEASURE2"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 -1 0 -352] 0.25"
@@ -58,7 +362,7 @@ entity
 		side
 		{
 			"id" "103"
-			"plane" "(-4 16 20) (-4 -16 20) (-2 -16 20)"
+			"plane" "(-4 24 36) (-4 -24 36) (-2 -24 36)"
 			"material" "GLASS/GLASSWINDOW015B"
 			"uaxis" "[1 0 0 140] 0.25"
 			"vaxis" "[0 1 0 128] 0.25"
@@ -69,10 +373,10 @@ entity
 		side
 		{
 			"id" "102"
-			"plane" "(-4 -16 20) (-4 16 20) (-4 16 48)"
+			"plane" "(-4 -24 36) (-4 24 36) (-4 24 60)"
 			"material" "GLASS/GLASSWINDOW015B"
 			"uaxis" "[0 1 0 64] 0.25"
-			"vaxis" "[0 0 -1 80] 0.25"
+			"vaxis" "[0 0 -1 144] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -80,10 +384,10 @@ entity
 		side
 		{
 			"id" "101"
-			"plane" "(-2 16 20) (-2 -16 20) (-2 -16 48)"
+			"plane" "(-2 24 36) (-2 -24 36) (-2 -24 60)"
 			"material" "GLASS/GLASSWINDOW015B"
 			"uaxis" "[0 1 0 64] 0.25"
-			"vaxis" "[0 0 -1 80] 0.25"
+			"vaxis" "[0 0 -1 144] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -91,7 +395,7 @@ entity
 		side
 		{
 			"id" "100"
-			"plane" "(-4 16 20) (-2 16 20) (-2 16 48)"
+			"plane" "(-4 24 36) (-2 24 36) (-2 24 60)"
 			"material" "DEV/DEV_BLENDMEASURE2"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 0 -1 -192] 0.25"
@@ -102,7 +406,7 @@ entity
 		side
 		{
 			"id" "99"
-			"plane" "(-2 -16 20) (-4 -16 20) (-4 -16 48)"
+			"plane" "(-2 -24 36) (-4 -24 36) (-4 -24 60)"
 			"material" "DEV/DEV_BLENDMEASURE2"
 			"uaxis" "[1 0 0 -96] 0.25"
 			"vaxis" "[0 0 -1 -192] 0.25"
@@ -123,7 +427,7 @@ entity
 		side
 		{
 			"id" "110"
-			"plane" "(-10 -16 32) (-10 -14 32) (10 -14 32)"
+			"plane" "(10 -20 40) (10 -24 40) (-10 -24 40)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 421.55] 0.25"
@@ -134,7 +438,7 @@ entity
 		side
 		{
 			"id" "109"
-			"plane" "(-10 -14 2) (-10 -16 2) (10 -16 2)"
+			"plane" "(10 -24 4) (10 -20 4) (-10 -20 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 -74.4493] 0.25"
@@ -145,7 +449,7 @@ entity
 		side
 		{
 			"id" "108"
-			"plane" "(-10 -16 2) (-10 -14 2) (-10 -14 32)"
+			"plane" "(-10 -20 40) (-10 -24 40) (-10 -24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -1 0 -64] 0.25"
 			"vaxis" "[0 0 -1 -10.45] 0.25"
@@ -156,7 +460,7 @@ entity
 		side
 		{
 			"id" "107"
-			"plane" "(10 -14 2) (10 -16 2) (10 -16 32)"
+			"plane" "(10 -24 40) (10 -20 40) (10 -20 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 1 0 48] 0.25"
 			"vaxis" "[0 0 -1 -10.45] 0.25"
@@ -167,7 +471,7 @@ entity
 		side
 		{
 			"id" "106"
-			"plane" "(-10 -14 2) (10 -14 2) (10 -14 32)"
+			"plane" "(10 -20 40) (-10 -20 40) (-10 -20 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -10.45] 0.25"
@@ -178,314 +482,10 @@ entity
 		side
 		{
 			"id" "105"
-			"plane" "(10 -16 2) (-10 -16 2) (-10 -16 32)"
+			"plane" "(-10 -24 40) (10 -24 40) (10 -24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -10.45] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "100 185 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "7"
-		side
-		{
-			"id" "116"
-			"plane" "(10 -12 37) (10 -14 32) (10 -16 32)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 0.970142 -0.242536 77.6106] 0.25"
-			"vaxis" "[0 -0.242536 -0.970142 -25.9191] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "115"
-			"plane" "(-10 -14 32) (-10 -12 37) (-10 -14 39)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 -0.970142 0.242536 -93.1336] 0.25"
-			"vaxis" "[0 -0.242536 -0.970142 -25.9141] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "114"
-			"plane" "(-10 -16 32) (10 -16 32) (10 -14 32)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -1 0 -186.475] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "113"
-			"plane" "(-10 -12 37) (10 -12 37) (10 -14 39)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.707107 -0.707107 490.019] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "112"
-			"plane" "(10 -16 32) (-10 -16 32) (-10 -14 39)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.210072 -0.977686 -23.6474] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "111"
-			"plane" "(-10 -14 32) (10 -14 32) (10 -12 37)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.242535 -0.970143 -25.9163] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "100 185 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "8"
-		side
-		{
-			"id" "122"
-			"plane" "(10 -10 42) (10 -12 37) (10 -14 39)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 0.894427 -0.447214 103.753] 0.25"
-			"vaxis" "[0 -0.447214 -0.894427 -45.831] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "121"
-			"plane" "(-10 -12 37) (-10 -10 42) (-10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 -0.894427 0.447214 -119.853] 0.25"
-			"vaxis" "[0 -0.447214 -0.894427 -45.831] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "120"
-			"plane" "(10 -12 37) (-10 -12 37) (-10 -14 39)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.989951 0.141411 -218.888] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "119"
-			"plane" "(-10 -10 42) (10 -10 42) (10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.707107 -0.707107 477.787] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118"
-			"plane" "(10 -14 39) (-10 -14 39) (-10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.447453 -0.894308 -45.904] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "117"
-			"plane" "(-10 -12 37) (10 -12 37) (10 -10 42)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.447214 -0.894427 -45.831] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "100 185 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "9"
-		side
-		{
-			"id" "128"
-			"plane" "(10 -5 45) (10 -10 42) (10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 0.6 -0.8 149.6] 0.25"
-			"vaxis" "[0 -0.8 -0.6 -105.65] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "127"
-			"plane" "(-10 -10 42) (-10 -5 45) (-10 -6 47)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 -0.6 0.8 -166.4] 0.25"
-			"vaxis" "[0 -0.8 -0.6 -105.649] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "126"
-			"plane" "(10 -10 42) (-10 -10 42) (-10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.707107 0.707107 -311.44] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "125"
-			"plane" "(-10 -5 45) (10 -5 45) (10 -6 47)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.242522 -0.970146 -21.1038] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "124"
-			"plane" "(-10 -6 47) (10 -6 47) (10 -12 43)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.765483 -0.643456 -97.9151] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "123"
-			"plane" "(-10 -10 42) (10 -10 42) (10 -5 45)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.8 -0.6 -105.65] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "100 185 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "10"
-		side
-		{
-			"id" "134"
-			"plane" "(10 0 46) (10 -5 45) (10 -6 47)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 0.196114 -0.980581 172.582] 0.25"
-			"vaxis" "[0 -0.980581 -0.196114 -178.735] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "133"
-			"plane" "(-10 -5 45) (-10 0 46) (-10 0 48)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[0 -0.196114 0.980581 322.944] 0.25"
-			"vaxis" "[0 -0.980581 -0.196114 -178.735] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "132"
-			"plane" "(10 -5 45) (-10 -5 45) (-10 -6 47)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.242522 0.970146 -364.549] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "131"
-			"plane" "(-10 0 46) (10 0 46) (10 0 48)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 -37.246] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "130"
-			"plane" "(-10 0 48) (10 0 48) (10 -6 47)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.973749 -0.227625 -173.443] 0.25"
-			"rotation" "0"
-			"lightmapscale" "8"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "129"
-			"plane" "(-10 -5 45) (10 -5 45) (10 0 46)"
-			"material" "WOOD/WOODSHELF002A"
-			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.980581 -0.196114 -178.735] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -503,7 +503,7 @@ entity
 		side
 		{
 			"id" "140"
-			"plane" "(10 5 45) (10 0 46) (10 0 48)"
+			"plane" "(10 9 59) (10 8 56) (10 0 57)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -0.196121 -0.98058 -339.418] 0.25"
 			"vaxis" "[0 -0.98058 0.196121 -247.771] 0.25"
@@ -514,7 +514,7 @@ entity
 		side
 		{
 			"id" "139"
-			"plane" "(-10 0 46) (-10 5 45) (-10 6 47)"
+			"plane" "(-10 9.53674e-07 60) (-10 0 57) (-10 8 56)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0.196121 0.98058 322.944] 0.25"
 			"vaxis" "[0 -0.98058 0.196121 -247.769] 0.25"
@@ -525,7 +525,7 @@ entity
 		side
 		{
 			"id" "138"
-			"plane" "(10 0 46) (-10 0 46) (-10 0 48)"
+			"plane" "(10 9.53674e-07 60) (10 0 57) (-10 0 57)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 1 122.747] 0.25"
@@ -536,10 +536,10 @@ entity
 		side
 		{
 			"id" "137"
-			"plane" "(-10 5 45) (10 5 45) (10 6 47)"
+			"plane" "(-10 9 59) (-10 8 56) (10 8 56)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.242536 -0.970142 -61.8801] 0.25"
+			"vaxis" "[0 -0.287348 -0.957825 -61.8801] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -547,10 +547,10 @@ entity
 		side
 		{
 			"id" "136"
-			"plane" "(-10 6 47) (10 6 47) (10 0 48)"
+			"plane" "(-10 9.53674e-07 60) (-10 9 59) (10 9 59)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.973746 0.227637 -253.062] 0.25"
+			"vaxis" "[0 -0.981547 0.191217 -253.062] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -558,10 +558,10 @@ entity
 		side
 		{
 			"id" "135"
-			"plane" "(-10 0 46) (10 0 46) (10 5 45)"
+			"plane" "(-10 8 56) (-10 0 57) (10 0 57)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.98058 0.196121 -247.77] 0.25"
+			"vaxis" "[0 -0.986393 0.164403 -247.77] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -579,7 +579,7 @@ entity
 		side
 		{
 			"id" "146"
-			"plane" "(10 10 42) (10 5 45) (10 6 47)"
+			"plane" "(10 15 52) (10 8 56) (10 9 59)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -0.599988 -0.800009 -362.398] 0.25"
 			"vaxis" "[0 -0.800009 0.599988 -320.84] 0.25"
@@ -590,7 +590,7 @@ entity
 		side
 		{
 			"id" "145"
-			"plane" "(-10 5 45) (-10 10 42) (-10 12 43)"
+			"plane" "(-10 8 56) (-10 15 52) (-10 18 54)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0.599988 0.800009 345.599] 0.25"
 			"vaxis" "[0 -0.800009 0.599988 -320.838] 0.25"
@@ -601,10 +601,10 @@ entity
 		side
 		{
 			"id" "144"
-			"plane" "(10 5 45) (-10 5 45) (-10 6 47)"
+			"plane" "(10 8 56) (-10 8 56) (-10 9 59)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.242563 0.970136 106.705] 0.25"
+			"vaxis" "[0 0.287379 0.957817 106.705] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -612,10 +612,10 @@ entity
 		side
 		{
 			"id" "143"
-			"plane" "(-10 10 42) (10 10 42) (10 12 43)"
+			"plane" "(-10 15 52) (10 15 52) (10 18 54)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.707121 -0.707092 -115.079] 0.25"
+			"vaxis" "[0 -0.768234 -0.640168 -115.079] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -623,10 +623,10 @@ entity
 		side
 		{
 			"id" "142"
-			"plane" "(-10 12 43) (10 12 43) (10 6 47)"
+			"plane" "(-10 18 54) (10 18 54) (10 9 59)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.765506 0.643429 -328.567] 0.25"
+			"vaxis" "[0 -0.819062 0.573704 -328.567] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -634,10 +634,10 @@ entity
 		side
 		{
 			"id" "141"
-			"plane" "(-10 5 45) (10 5 45) (10 10 42)"
+			"plane" "(-10 8 56) (10 8 56) (10 15 52)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.800009 0.599988 -320.839] 0.25"
+			"vaxis" "[0 -0.848005 0.529987 -320.839] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -655,7 +655,7 @@ entity
 		side
 		{
 			"id" "152"
-			"plane" "(10 12 37) (10 10 42) (10 12 43)"
+			"plane" "(10 21 48) (10 18 46) (10 15 52)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -0.894438 -0.447192 -408.249] 0.25"
 			"vaxis" "[0 -0.447192 0.894438 -380.645] 0.25"
@@ -666,7 +666,7 @@ entity
 		side
 		{
 			"id" "151"
-			"plane" "(-10 14 39) (-10 12 43) (-10 10 42)"
+			"plane" "(-10 18 54) (-10 15 52) (-10 18 46)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0.894438 0.447192 392.15] 0.25"
 			"vaxis" "[0 -0.447192 0.894438 -380.643] 0.25"
@@ -677,10 +677,10 @@ entity
 		side
 		{
 			"id" "150"
-			"plane" "(10 10 42) (-10 10 42) (-10 12 43)"
+			"plane" "(10 18 54) (10 15 52) (-10 15 52)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.707107 0.707107 119.775] 0.25"
+			"vaxis" "[0 0.768221 0.640184 119.775] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -688,10 +688,10 @@ entity
 		side
 		{
 			"id" "149"
-			"plane" "(-10 12 37) (10 12 37) (10 14 39)"
+			"plane" "(10 18 46) (10 21 48) (-10 21 48)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.989956 -0.141373 -207.576] 0.25"
+			"vaxis" "[0 -0.992993 -0.118172 -207.576] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -699,10 +699,10 @@ entity
 		side
 		{
 			"id" "148"
-			"plane" "(-10 14 39) (10 14 39) (10 12 43)"
+			"plane" "(10 21 48) (10 18 54) (-10 18 54)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.446958 0.894555 -380.711] 0.25"
+			"vaxis" "[0 -0.514225 0.857655 -380.711] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -710,10 +710,10 @@ entity
 		side
 		{
 			"id" "147"
-			"plane" "(10 12 37) (-10 12 37) (-10 10 42)"
+			"plane" "(-10 18 46) (-10 15 52) (10 15 52)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.447192 0.894438 -380.644] 0.25"
+			"vaxis" "[0 -0.514473 0.857506 -380.644] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -731,7 +731,7 @@ entity
 		side
 		{
 			"id" "158"
-			"plane" "(10 14 32) (10 12 37) (10 14 39)"
+			"plane" "(10 20 40) (10 18 46) (10 21 48)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -0.970142 -0.242536 -434.388] 0.25"
 			"vaxis" "[0 -0.242536 0.970142 111.454] 0.25"
@@ -742,7 +742,7 @@ entity
 		side
 		{
 			"id" "157"
-			"plane" "(-10 12 37) (-10 14 32) (-10 16 32)"
+			"plane" "(-10 18 46) (-10 20 40) (-10 24 40)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0.970142 0.242536 418.866] 0.25"
 			"vaxis" "[0 -0.242536 0.970142 111.457] 0.25"
@@ -753,10 +753,10 @@ entity
 		side
 		{
 			"id" "156"
-			"plane" "(10 12 37) (-10 12 37) (-10 14 39)"
+			"plane" "(10 18 46) (-10 18 46) (-10 21 48)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 0.707114 0.7071 107.605] 0.25"
+			"vaxis" "[0 0.768227 0.640177 107.605] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -764,7 +764,7 @@ entity
 		side
 		{
 			"id" "155"
-			"plane" "(-10 14 32) (10 14 32) (10 16 32)"
+			"plane" "(-10 20 40) (10 20 40) (10 24 40)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 -240.051] 0.25"
@@ -775,10 +775,10 @@ entity
 		side
 		{
 			"id" "154"
-			"plane" "(-10 16 32) (10 16 32) (10 14 39)"
+			"plane" "(-10 24 40) (10 24 40) (10 21 48)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.210083 0.977684 109.192] 0.25"
+			"vaxis" "[0 -0.249687 0.968327 109.192] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -786,10 +786,10 @@ entity
 		side
 		{
 			"id" "153"
-			"plane" "(10 14 32) (-10 14 32) (-10 12 37)"
+			"plane" "(10 20 40) (-10 20 40) (-10 18 46)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
-			"vaxis" "[0 -0.242536 0.970142 111.456] 0.25"
+			"vaxis" "[0 -0.287348 0.957825 111.456] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -807,7 +807,7 @@ entity
 		side
 		{
 			"id" "164"
-			"plane" "(-10 14 32) (-10 16 32) (10 16 32)"
+			"plane" "(10 24 40) (10 20 40) (-10 20 40)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 176] 0.25"
@@ -818,7 +818,7 @@ entity
 		side
 		{
 			"id" "163"
-			"plane" "(-10 16 2) (-10 14 2) (10 14 2)"
+			"plane" "(10 20 4) (10 24 4) (-10 24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 -1 0 -352] 0.25"
@@ -829,7 +829,7 @@ entity
 		side
 		{
 			"id" "162"
-			"plane" "(-10 14 2) (-10 16 2) (-10 16 32)"
+			"plane" "(-10 24 40) (-10 20 40) (-10 20 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 1 96] 0.25"
@@ -840,7 +840,7 @@ entity
 		side
 		{
 			"id" "161"
-			"plane" "(10 16 2) (10 14 2) (10 14 32)"
+			"plane" "(10 20 40) (10 24 40) (10 24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 -1 0 -464] 0.25"
 			"vaxis" "[0 0 1 96] 0.25"
@@ -851,7 +851,7 @@ entity
 		side
 		{
 			"id" "160"
-			"plane" "(-10 16 2) (10 16 2) (10 16 32)"
+			"plane" "(10 24 40) (-10 24 40) (-10 24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 1 96] 0.25"
@@ -862,7 +862,7 @@ entity
 		side
 		{
 			"id" "159"
-			"plane" "(10 14 2) (-10 14 2) (-10 14 32)"
+			"plane" "(-10 20 40) (10 20 40) (10 20 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 1 96] 0.25"
@@ -883,7 +883,7 @@ entity
 		side
 		{
 			"id" "170"
-			"plane" "(-10 -16 2) (-10 16 2) (10 16 2)"
+			"plane" "(-10 24 4) (10 24 4) (10 -24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 64] 0.25"
@@ -894,7 +894,7 @@ entity
 		side
 		{
 			"id" "169"
-			"plane" "(-10 16 0) (-10 -16 0) (10 -16 0)"
+			"plane" "(-10 -24 0) (10 -24 0) (10 24 0)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 64] 0.25"
@@ -905,7 +905,7 @@ entity
 		side
 		{
 			"id" "168"
-			"plane" "(-10 -16 0) (-10 16 0) (-10 16 2)"
+			"plane" "(-10 24 0) (-10 24 4) (-10 -24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0 -1 0] 0.25"
 			"vaxis" "[0 1 0 64] 0.25"
@@ -916,7 +916,7 @@ entity
 		side
 		{
 			"id" "167"
-			"plane" "(10 16 0) (10 -16 0) (10 -16 2)"
+			"plane" "(10 -24 0) (10 -24 4) (10 24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[0 0 1 -16] 0.25"
 			"vaxis" "[0 1 0 64] 0.25"
@@ -927,7 +927,7 @@ entity
 		side
 		{
 			"id" "166"
-			"plane" "(-10 16 0) (10 16 0) (10 16 2)"
+			"plane" "(10 24 0) (10 24 4) (-10 24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 144] 0.25"
@@ -938,7 +938,7 @@ entity
 		side
 		{
 			"id" "165"
-			"plane" "(10 -16 0) (-10 -16 0) (-10 -16 2)"
+			"plane" "(-10 -24 0) (-10 -24 4) (10 -24 4)"
 			"material" "WOOD/WOODSHELF002A"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 1 -16] 0.25"
