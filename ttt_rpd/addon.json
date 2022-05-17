@@ -1,4 +1,11 @@
 {
-    "title"  : "Raccoon Police Department",
-    "type"  : "map"
-   }
+	"title"		:	"Raccoon Police Department",
+	"type"		:	"map",
+	"tags"		:	[ "fun", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
