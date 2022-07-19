@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9174"
-	"mapversion" "5435"
+	"editorbuild" "9351"
+	"mapversion" "5436"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "389401"
-	"mapversion" "5435"
+	"mapversion" "5436"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -99,7 +99,33 @@ entity
 	"renderfx" "0"
 	"rendermode" "5"
 	"scale" ".5"
-	"origin" "0 0 -64"
+	"origin" "0 16 -64"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "389456"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "8"
+	"gmod_allowphysgun" "1"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow06.vmt"
+	"renderamt" "175"
+	"rendercolor" "254 216 146"
+	"renderfx" "0"
+	"rendermode" "5"
+	"scale" ".5"
+	"origin" "0 -16 -64"
 	editor
 	{
 		"color" "20 140 20"
