@@ -4414,3 +4414,1590 @@ Level flags = 0
 Total triangle count: 48433
 Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
 35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\Andrei\Documents\GMOD Maps\Raccoon Police Department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 68 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\Andrei\Documents\GMOD Maps\Raccoon Police Department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34205 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 123
+Reduced 22 texdatas to 20 (523 bytes to 475)
+Writing C:\Users\Andrei\Documents\GMOD Maps\Raccoon Police Department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  19 portalclusters
+  37 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 199
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 19
+visdatasize:270  compressed from 304
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+252 faces
+8094 square feet [1165620.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+252 patches before subdivision
+4184 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 192852, max 237
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4668, 11204, 11373)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1097, 2475, 2239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(268, 565, 455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 130, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(17, 30, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 7, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 96/16384        1152/196608   ( 0.6%) 
+brushsides             579/163840       4632/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               549/65536        6588/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  252/65536       14112/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              321/65536         642/131072   ( 0.5%) 
+leafbrushes            205/65536         410/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1473/256000       5892/1024000  ( 0.6%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       12660/393216   ( 3.2%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5454     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       34205/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 770
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 68 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34205 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 123
+Reduced 22 texdatas to 20 (523 bytes to 475)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  19 portalclusters
+  37 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 199
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 19
+visdatasize:270  compressed from 304
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+252 faces
+8094 square feet [1165620.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+252 patches before subdivision
+4184 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 192852, max 237
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11888, 13612, 12542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2796, 3008, 2469)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(683, 687, 502)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(173, 158, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(44, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 96/16384        1152/196608   ( 0.6%) 
+brushsides             579/163840       4632/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               549/65536        6588/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  252/65536       14112/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              321/65536         642/131072   ( 0.5%) 
+leafbrushes            205/65536         410/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1473/256000       5892/1024000  ( 0.6%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       12660/393216   ( 3.2%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5454     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       34205/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 770
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+252 faces
+8094 square feet [1165620.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+252 patches before subdivision
+4184 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 192852, max 237
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11888, 13612, 12542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2796, 3008, 2469)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(683, 687, 502)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(173, 158, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(44, 37, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(12, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 96/16384        1152/196608   ( 0.6%) 
+brushsides             579/163840       4632/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               549/65536        6588/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  252/65536       14112/3670016  ( 0.4%) 
+hdr faces              252/65536       14112/3670016  ( 0.4%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              321/65536         642/131072   ( 0.5%) 
+leafbrushes            205/65536         410/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1473/256000       5892/1024000  ( 0.6%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights         14/8192         1232/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171232/0        ( 0.0%) 
+HDR lightdata         [variable]      171232/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       12660/393216   ( 3.2%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5454     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       34205/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 770
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 68 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34205 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 123
+Reduced 22 texdatas to 20 (523 bytes to 475)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  19 portalclusters
+  37 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 199
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 19
+visdatasize:270  compressed from 304
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+252 faces
+8094 square feet [1165620.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+252 patches before subdivision
+4184 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 193824, max 238
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9712, 10293, 9191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2223, 2255, 1802)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(536, 508, 363)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(135, 117, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 27, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(9, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 96/16384        1152/196608   ( 0.6%) 
+brushsides             579/163840       4632/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               549/65536        6588/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  252/65536       14112/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              321/65536         642/131072   ( 0.5%) 
+leafbrushes            205/65536         410/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1473/256000       5892/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       11160/393216   ( 2.8%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5322     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       34205/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 770
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+252 faces
+8094 square feet [1165620.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+252 patches before subdivision
+4184 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 193824, max 238
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9712, 10293, 9191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2223, 2255, 1802)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(536, 508, 363)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(135, 117, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 27, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(9, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 96/16384        1152/196608   ( 0.6%) 
+brushsides             579/163840       4632/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               549/65536        6588/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 20/2048          640/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  252/65536       14112/3670016  ( 0.4%) 
+hdr faces              252/65536       14112/3670016  ( 0.4%) 
+origfaces              213/65536       11928/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              321/65536         642/131072   ( 0.5%) 
+leafbrushes            205/65536         410/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2122/512000       8488/2048000  ( 0.4%) 
+edges                 1473/256000       5892/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171232/0        ( 0.0%) 
+HDR lightdata         [variable]      171232/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       11160/393216   ( 2.8%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5322     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       34205/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 770
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 3020 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1331307 bytes)
+Error! prop_static using model "models/props_interiors/radiator01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/radiator01a.mdl"!
+Error! prop_static using model "models/props_wasteland/cafeteria_bench001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/cafeteria_bench001a.mdl"!
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 11726 texinfos to 7687
+Reduced 145 texdatas to 132 (3528 bytes to 3062)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+7 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+1354 portalclusters
+3917 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2838 visible clusters (1.11%)
+Total clusters visible: 255304
+Average clusters visible: 188
+Building PAS...
+Average clusters audible: 939
+visdatasize:335911  compressed from 476608
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+15126 faces
+75 degenerate faces
+751372 square feet [108197688.00 square inches]
+1 Displacements
+914 Square Feet [131712.00 Square Inches]
+15051 patches before subdivision
+Zero area child patch at around 1788.009766 -256.000000 496.073975
+251681 patches after subdivision
+373 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 37796287, max 1745
+transfer lists: 288.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(418763, 353511, 250862)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(107074, 80976, 44013)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(31318, 21637, 9459)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9662, 6127, 2172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3121, 1813, 528)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1040, 555, 134)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(356, 174, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(124, 56, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(44, 18, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(16, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(6, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0410 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+202 of 202 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  33/4096         1584/196608   ( 0.8%) 
+brushes               3219/16384       38628/196608   (19.6%) 
+brushsides           31781/163840     254248/1310720  (19.4%) 
+planes               22928/65536      458560/1310720  (35.0%) 
+vertexes             30061/65536      360732/786432   (45.9%) 
+nodes                 2878/65536       92096/2097152  ( 4.4%) 
+texinfos              7687/12288      553464/884736   (62.6%) 
+texdata                132/2048         4224/65536    ( 6.4%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts              81/0            1620/0        ( 0.0%) 
+disp_tris              128/0             256/0        ( 0.0%) 
+disp_lmsamples        8976/0            8976/0        ( 0.0%) 
+faces                15126/65536      847056/3670016  (23.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            11440/65536      640640/3670016  (17.5%) 
+leaves                2912/65536       93184/2097152  ( 4.4%) 
+leaffaces            19708/65536       39416/131072   (30.1%) 
+leafbrushes           5664/65536       11328/131072   ( 8.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges           122329/512000     489316/2048000  (23.9%) 
+edges                80376/256000     321504/1024000  (31.4%) 
+LDR worldlights        373/8192        32824/720896   ( 4.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1627/32768       16270/327680   ( 5.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         39468/65536       78936/131072   (60.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                21/1024         7392/360448   ( 2.1%) 
+LDR lightdata         [variable]    10296096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 52 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (35024 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 289 texinfos to 135
+Reduced 26 texdatas to 21 (624 bytes to 502)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  19 portalclusters
+  37 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 199
+Average clusters visible: 10
+Building PAS...
+Average clusters audible: 19
+visdatasize:270  compressed from 304
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+256 faces
+8161 square feet [1175226.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+256 patches before subdivision
+4180 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 202688, max 248
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8825, 5858, 4638)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1202, 661, 420)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(177, 75, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 98/16384        1176/196608   ( 0.6%) 
+brushsides             591/163840       4728/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               553/65536        6636/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               135/12288        9720/884736   ( 1.1%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  256/65536       14336/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              217/65536       12152/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              325/65536         650/131072   ( 0.5%) 
+leafbrushes            211/65536         422/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2154/512000       8616/2048000  ( 0.4%) 
+edges                 1487/256000       5948/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171612/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       11160/393216   ( 2.8%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient        66/65536        1848/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       35024/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 778
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+256 faces
+8161 square feet [1175226.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+256 patches before subdivision
+4180 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 202688, max 248
+transfer lists:   1.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8825, 5858, 4638)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1202, 661, 420)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(177, 75, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 98/16384        1176/196608   ( 0.6%) 
+brushsides             591/163840       4728/1310720  ( 0.4%) 
+planes                 364/65536        7280/1310720  ( 0.6%) 
+vertexes               553/65536        6636/786432   ( 0.8%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos               135/12288        9720/884736   ( 1.1%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  256/65536       14336/3670016  ( 0.4%) 
+hdr faces              256/65536       14336/3670016  ( 0.4%) 
+origfaces              217/65536       12152/3670016  ( 0.3%) 
+leaves                  66/65536        2112/2097152  ( 0.1%) 
+leaffaces              325/65536         650/131072   ( 0.5%) 
+leafbrushes            211/65536         422/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2154/512000       8616/2048000  ( 0.4%) 
+edges                 1487/256000       5948/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           555/65536        1110/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      171612/0        ( 0.0%) 
+HDR lightdata         [variable]      171612/0        ( 0.0%) 
+visdata               [variable]         270/16777216 ( 0.0%) 
+entdata               [variable]       11160/393216   ( 2.8%) 
+LDR ambient table       66/65536         264/262144   ( 0.1%) 
+HDR ambient table       66/65536         264/262144   ( 0.1%) 
+LDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+HDR leaf ambient       129/65536        3612/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]       87089/0        ( 0.0%) 
+physics               [variable]       35024/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 778
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 52 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (34925 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 293 texinfos to 143
+Reduced 26 texdatas to 21 (646 bytes to 502)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  28 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 514
+Average clusters visible: 18
+Building PAS...
+Average clusters audible: 28
+visdatasize:458  compressed from 448
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+264 faces
+1 degenerate faces
+8040 square feet [1157897.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+263 patches before subdivision
+4109 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 213111, max 269
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8871, 5931, 4724)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1173, 645, 412)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(164, 70, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 98/16384        1176/196608   ( 0.6%) 
+brushsides             604/163840       4832/1310720  ( 0.4%) 
+planes                 402/65536        8040/1310720  ( 0.6%) 
+vertexes               563/65536        6756/786432   ( 0.9%) 
+nodes                   72/65536        2304/2097152  ( 0.1%) 
+texinfos               143/12288       10296/884736   ( 1.2%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  264/65536       14784/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              223/65536       12488/3670016  ( 0.3%) 
+leaves                  74/65536        2368/2097152  ( 0.1%) 
+leaffaces              394/65536         788/131072   ( 0.6%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2202/512000       8808/2048000  ( 0.4%) 
+edges                 1515/256000       6060/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           720/65536        1440/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      176168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         458/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       74/65536         296/262144   ( 0.1%) 
+HDR ambient table       74/65536         296/262144   ( 0.1%) 
+LDR leaf ambient       107/65536        2996/1835008  ( 0.2%) 
+HDR leaf ambient        74/65536        2072/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5208     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       34925/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 786
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+264 faces
+1 degenerate faces
+8040 square feet [1157897.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+263 patches before subdivision
+4109 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 213111, max 269
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8871, 5931, 4724)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1173, 645, 412)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(164, 70, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(24, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 98/16384        1176/196608   ( 0.6%) 
+brushsides             604/163840       4832/1310720  ( 0.4%) 
+planes                 402/65536        8040/1310720  ( 0.6%) 
+vertexes               563/65536        6756/786432   ( 0.9%) 
+nodes                   72/65536        2304/2097152  ( 0.1%) 
+texinfos               143/12288       10296/884736   ( 1.2%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  264/65536       14784/3670016  ( 0.4%) 
+hdr faces              264/65536       14784/3670016  ( 0.4%) 
+origfaces              223/65536       12488/3670016  ( 0.3%) 
+leaves                  74/65536        2368/2097152  ( 0.1%) 
+leaffaces              394/65536         788/131072   ( 0.6%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2202/512000       8808/2048000  ( 0.4%) 
+edges                 1515/256000       6060/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             34/32768         340/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           720/65536        1440/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]      176168/0        ( 0.0%) 
+HDR lightdata         [variable]      176168/0        ( 0.0%) 
+visdata               [variable]         458/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       74/65536         296/262144   ( 0.1%) 
+HDR ambient table       74/65536         296/262144   ( 0.1%) 
+LDR leaf ambient       107/65536        2996/1835008  ( 0.2%) 
+HDR leaf ambient       107/65536        2996/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5208     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       34925/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 786
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31645 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 266 texinfos to 133
+Reduced 28 texdatas to 23 (680 bytes to 536)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  22 portalclusters
+  54 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 286
+Average clusters visible: 13
+Building PAS...
+Average clusters audible: 22
+visdatasize:315  compressed from 352
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+247 faces
+8133 square feet [1171273.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+247 patches before subdivision
+4063 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 214917, max 266
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9064, 6187, 4979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1227, 694, 451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(174, 78, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(25, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 88/16384        1056/196608   ( 0.5%) 
+brushsides             544/163840       4352/1310720  ( 0.3%) 
+planes                 388/65536        7760/1310720  ( 0.6%) 
+vertexes               517/65536        6204/786432   ( 0.8%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos               133/12288        9576/884736   ( 1.1%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  247/65536       13832/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              214/65536       11984/3670016  ( 0.3%) 
+leaves                  67/65536        2144/2097152  ( 0.1%) 
+leaffaces              353/65536         706/131072   ( 0.5%) 
+leafbrushes            202/65536         404/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2065/512000       8260/2048000  ( 0.4%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           471/65536         942/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]      177192/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         315/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       67/65536         268/262144   ( 0.1%) 
+HDR ambient table       67/65536         268/262144   ( 0.1%) 
+LDR leaf ambient       170/65536        4760/1835008  ( 0.3%) 
+HDR leaf ambient        67/65536        1876/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       31645/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 719
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+247 faces
+8133 square feet [1171273.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+247 patches before subdivision
+4063 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 214917, max 266
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9064, 6187, 4979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1227, 694, 451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(174, 78, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(25, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 88/16384        1056/196608   ( 0.5%) 
+brushsides             544/163840       4352/1310720  ( 0.3%) 
+planes                 388/65536        7760/1310720  ( 0.6%) 
+vertexes               517/65536        6204/786432   ( 0.8%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos               133/12288        9576/884736   ( 1.1%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  247/65536       13832/3670016  ( 0.4%) 
+hdr faces              247/65536       13832/3670016  ( 0.4%) 
+origfaces              214/65536       11984/3670016  ( 0.3%) 
+leaves                  67/65536        2144/2097152  ( 0.1%) 
+leaffaces              353/65536         706/131072   ( 0.5%) 
+leafbrushes            202/65536         404/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2065/512000       8260/2048000  ( 0.4%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           471/65536         942/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]      177192/0        ( 0.0%) 
+HDR lightdata         [variable]      177192/0        ( 0.0%) 
+visdata               [variable]         315/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       67/65536         268/262144   ( 0.1%) 
+HDR ambient table       67/65536         268/262144   ( 0.1%) 
+LDR leaf ambient       170/65536        4760/1835008  ( 0.3%) 
+HDR leaf ambient       170/65536        4760/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       31645/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 719
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.vmf
+Patching WVT material: maps/ttt_rpd_dev/dev/dev_blendmeasure2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (31645 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 266 texinfos to 133
+Reduced 28 texdatas to 23 (680 bytes to 536)
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+reading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.prt
+  22 portalclusters
+  54 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 286
+Average clusters visible: 13
+Building PAS...
+Average clusters audible: 22
+visdatasize:315  compressed from 352
+writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+247 faces
+8133 square feet [1171273.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+247 patches before subdivision
+4063 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 214917, max 266
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8301, 5683, 4570)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1125, 637, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(159, 71, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(23, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 88/16384        1056/196608   ( 0.5%) 
+brushsides             544/163840       4352/1310720  ( 0.3%) 
+planes                 388/65536        7760/1310720  ( 0.6%) 
+vertexes               517/65536        6204/786432   ( 0.8%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos               133/12288        9576/884736   ( 1.1%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  247/65536       13832/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              214/65536       11984/3670016  ( 0.3%) 
+leaves                  67/65536        2144/2097152  ( 0.1%) 
+leaffaces              353/65536         706/131072   ( 0.5%) 
+leafbrushes            202/65536         404/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2065/512000       8260/2048000  ( 0.4%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           471/65536         942/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]      177192/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         315/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       67/65536         268/262144   ( 0.1%) 
+HDR ambient table       67/65536         268/262144   ( 0.1%) 
+LDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+HDR leaf ambient        67/65536        1876/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       31645/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 719
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+PREP OK
+247 faces
+8133 square feet [1171273.88 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+247 patches before subdivision
+4063 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 214917, max 266
+transfer lists:   1.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8301, 5683, 4570)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1125, 637, 413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(159, 71, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(23, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 88/16384        1056/196608   ( 0.5%) 
+brushsides             544/163840       4352/1310720  ( 0.3%) 
+planes                 388/65536        7760/1310720  ( 0.6%) 
+vertexes               517/65536        6204/786432   ( 0.8%) 
+nodes                   65/65536        2080/2097152  ( 0.1%) 
+texinfos               133/12288        9576/884736   ( 1.1%) 
+texdata                 23/2048          736/65536    ( 1.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  247/65536       13832/3670016  ( 0.4%) 
+hdr faces              247/65536       13832/3670016  ( 0.4%) 
+origfaces              214/65536       11984/3670016  ( 0.3%) 
+leaves                  67/65536        2144/2097152  ( 0.1%) 
+leaffaces              353/65536         706/131072   ( 0.5%) 
+leafbrushes            202/65536         404/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2065/512000       8260/2048000  ( 0.4%) 
+edges                 1479/256000       5916/1024000  ( 0.6%) 
+LDR worldlights         10/8192          880/720896   ( 0.1%) 
+HDR worldlights         10/8192          880/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             21/32768         210/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           471/65536         942/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 3/1024         1056/360448   ( 0.3%) 
+LDR lightdata         [variable]      177192/0        ( 0.0%) 
+HDR lightdata         [variable]      177192/0        ( 0.0%) 
+visdata               [variable]         315/16777216 ( 0.0%) 
+entdata               [variable]       11153/393216   ( 2.8%) 
+LDR ambient table       67/65536         268/262144   ( 0.1%) 
+HDR ambient table       67/65536         268/262144   ( 0.1%) 
+LDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+HDR leaf ambient       171/65536        4788/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5186     ( 0.0%) 
+pakfile               [variable]      174072/0        ( 0.0%) 
+physics               [variable]       31645/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 719
+Writing c:\users\andrei\documents\gmod maps\raccoon police department\hammer\ttt_rpd_dev.bsp
+1 second elapsed
