@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9351"
-	"mapversion" "7"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66,7 +66,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_inner_cone" "45"
-	"_light" "147 226 240 100"
+	"_light" "255 245 246 150"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -93,14 +93,14 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "147 226 240 25"
+	"_light" "255 245 246 25"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
 	"style" "0"
-	"origin" "0 0 -64"
+	"origin" "0 0 -56"
 	editor
 	{
 		"color" "220 30 220"
