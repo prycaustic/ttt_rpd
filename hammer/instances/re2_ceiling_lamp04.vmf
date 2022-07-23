@@ -2,22 +2,25 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9351"
-	"mapversion" "7049"
+	"mapversion" "8"
 	"formatversion" "100"
-	"prefab" "1"
+	"prefab" "0"
+}
+visgroups
+{
 }
 viewsettings
 {
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
-	"id" "564574"
-	"mapversion" "7049"
+	"id" "1"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -26,7 +29,34 @@ world
 }
 entity
 {
-	"id" "564575"
+	"id" "3"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props/cs_office/light_ceiling.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "10"
 	"classname" "light_spot"
 	"_castentityshadow" "0"
 	"_cone" "70"
@@ -42,11 +72,11 @@ entity
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"angles" "-15 90 0"
-	"pitch" "-15"
+	"angles" "-90 270 0"
+	"pitch" "-90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "0 9 0"
+	"origin" "-1.19209e-06 -1.19209e-06 -4"
 	editor
 	{
 		"color" "220 30 220"
@@ -57,60 +87,7 @@ entity
 }
 entity
 {
-	"id" "564580"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props/de_nuke/wall_light.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "0 0 0"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "564587"
-	"classname" "env_sprite"
-	"disablereceiveshadows" "0"
-	"framerate" "10.0"
-	"GlowProxySize" "8"
-	"gmod_allowphysgun" "1"
-	"HDRColorScale" "1.0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "sprites/glow06.vmt"
-	"renderamt" "175"
-	"rendercolor" "255 245 246"
-	"renderfx" "0"
-	"rendermode" "5"
-	"scale" ".5"
-	"origin" "0 5 0"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -14268]"
-	}
-}
-entity
-{
-	"id" "564644"
+	"id" "101"
 	"classname" "light"
 	"_castentityshadow" "0"
 	"_constant_attn" "0"
@@ -125,7 +102,7 @@ entity
 	"_zero_percent_distance" "0"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "0 45 -16"
+	"origin" "-1.19209e-06 -1.19209e-06 -40"
 	editor
 	{
 		"color" "220 30 220"
@@ -133,4 +110,14 @@ entity
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14268]"
 	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
 }

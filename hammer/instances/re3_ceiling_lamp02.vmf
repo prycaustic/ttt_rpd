@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9351"
-	"mapversion" "6935"
+	"mapversion" "6940"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,38 +17,12 @@ viewsettings
 world
 {
 	"id" "554969"
-	"mapversion" "6935"
+	"mapversion" "6940"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-}
-entity
-{
-	"id" "554970"
-	"classname" "env_sprite"
-	"disablereceiveshadows" "0"
-	"framerate" "10.0"
-	"GlowProxySize" "8"
-	"gmod_allowphysgun" "1"
-	"HDRColorScale" "1.0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "sprites/glow06.vmt"
-	"renderamt" "175"
-	"rendercolor" "255 245 246"
-	"renderfx" "0"
-	"rendermode" "5"
-	"scale" ".5"
-	"origin" "0 -16 -64"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -14268]"
-	}
 }
 entity
 {
@@ -72,7 +46,7 @@ entity
 	"pitch" "-90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "0 0 -64"
+	"origin" "0 0 -27"
 	editor
 	{
 		"color" "220 30 220"
@@ -83,35 +57,9 @@ entity
 }
 entity
 {
-	"id" "554978"
-	"classname" "env_sprite"
-	"disablereceiveshadows" "0"
-	"framerate" "10.0"
-	"GlowProxySize" "8"
-	"gmod_allowphysgun" "1"
-	"HDRColorScale" "1.0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "sprites/glow06.vmt"
-	"renderamt" "175"
-	"rendercolor" "255 245 246"
-	"renderfx" "0"
-	"rendermode" "5"
-	"scale" ".5"
-	"origin" "0 16 -64"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -14268]"
-	}
-}
-entity
-{
 	"id" "554981"
 	"classname" "prop_static"
-	"angles" "0 0 0"
+	"angles" "0 90 0"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
@@ -121,14 +69,40 @@ entity
 	"ignorenormals" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_lab/lab_flourescentlight001a.mdl"
+	"model" "models/props/cs_militia/light_shop2.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "0 0 -32"
+	"origin" "0 0 -23"
 	editor
 	{
 		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "555105"
+	"classname" "light"
+	"_castentityshadow" "0"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 245 246 20"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 0 -63"
+	editor
+	{
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14268]"
